@@ -27,7 +27,7 @@ services:
       - html:/usr/share/nginx/html
       - /var/run/docker.sock:/var/run/docker.sock:ro
 
-  volumes:
-    certs:
-    html:
-    vhostd:
+volumes:
+  certs:
+  html:
+  vhostd:
